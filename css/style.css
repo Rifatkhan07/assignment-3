@@ -1,0 +1,216 @@
+body{
+padding: 0;
+margin: 0;
+}
+.top-header{
+background: rgb(44,44,44);
+}
+.container{
+width: 1400px;
+margin: 0 auto;
+overflow: hidden;
+}
+.pad{
+padding: 8px 0;
+}
+.contact-box{
+float: left;
+width: 50%;
+}
+.contact-box p{
+    color: rgb(255,141,30);
+    margin: 0;
+}
+
+.social-box{
+width: 50%;
+float: left;
+}
+.social-box ul{
+text-align: right;
+margin: 0;
+padding: 0;
+}
+.social-box ul li{
+list-style: none;
+display: inline-block;
+}
+.social-box ul li a{
+margin: 0;
+padding: 0 5px;
+display: block;
+color: rgb(102,103,103);
+}
+.logo{
+width: 20%;
+float: left;
+}
+.menu{
+width: 80%;
+float: left;
+}
+.menu ul{
+margin: 0;
+padding: 0;
+text-align: right;
+}
+.menu ul li{
+list-style: none;
+display: inline-block;
+border-right: 2px solid rgb(231, 231, 231);
+}
+.menu ul li a{
+display: block;
+text-decoration: none;
+text-transform: capitalize;
+padding: 10px 20px;
+color: #222;
+}
+.menu ul li a:hover{
+color: #D08313;
+    background-color: rgb(226,226,226);
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.menu ul li a:focus{
+color: #D08313;
+ background: rgb(226,226,226);
+}
+.button{
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.menu ul li:nth-child(4) {
+border-right: 0 solid rgb(226,226,226)
+}
+.menu ul li:last-child{
+    border-right: 0 solid rgb(226,226,226)
+}
+.bg{
+	background-image: url(../image/cover.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.business-content{
+	width: 50%;
+	float: left;
+	padding: 100px 0;
+}
+.business-content h1 span{
+	color:rgb(229,117,64);
+
+}
+.business-content h1 {
+	color: white;
+    font-size: 60px;
+}
+.business-content p{
+	color: rgb(229,117,64);
+    font-size: 25px;
+}
+
+.business-content img{
+	max-width: 100%;
+	width: 0px;
+}
+
+.signup-form{
+	width: 34%;
+	float: left;
+	padding: 116px 0;
+	margin-left: 160px;
+}
+.signup-form .form{
+	background:#fff;
+	padding: 20px 26px;
+}
+.signup-form h1{
+	color: rgb(43,113,157);
+	font-size: 38px;
+}
+.form input {
+	width: 95%;
+	padding: 10px;
+	display: block;
+	border-radius: 5px;
+	margin-bottom: 10px; 
+	border: 1px solid #222;
+}
+.form .button{
+	width: auto;
+	background: #fff;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	    border: 1px solid #222;
+}
+.form h1 {
+	text-align: center
+}
+.form input:last-child{
+	border-width: 2px;
+}
+.middle-pad {
+    background: rgb(209,221,97);
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+.middle-pad ul{
+    text-align: left;
+    display: inline-block;
+    margin-left: 732px;
+}
+.middle-pad ul li {
+list-style: none;
+    display: inline;
+}
+.last-pad{
+width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.left-part{
+    width: 50%;
+    float: left;
+}
+.left-part ul{
+    margin: 0%;
+    padding: 0;
+}
+.left-part ul li{
+list-style: none;
+    display: inline-block;
+}
+.left-part ul li h4{
+    margin-left: 130px;
+    margin-top: -69px;
+    text-align: start;
+}
+.left-part ul li p{
+margin-left: 127px;
+}
+.right-part{
+    width: 50%;
+    float: left;
+}
+.right-part ul{
+    margin: 0%;
+    padding: 0;
+}
+.right-part ul li{
+list-style: none;
+    display: inline-block;
+}
+.right-part ul li h4{
+    margin-left: 130px;
+    margin-top: -69px;
+    text-align: start;
+}
+.right-part ul li p{
+margin-left: 127px;
+}
+
+
+
